@@ -454,3 +454,9 @@ section, .section {
     margin: 0 auto;
     padding: 0;
 }
+
+@media (max-width: 1000px) {
+    section, .section {
+        padding: 0 20px;
+    }
+}
