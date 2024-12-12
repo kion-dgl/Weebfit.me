@@ -452,5 +452,11 @@ body {
 section, .section {
     max-width: 1480px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px 20px;
+}
+
+@media (max-width: 1000px) {
+    section, .section {
+        padding: 20px;
+    }
 }
