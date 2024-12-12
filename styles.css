@@ -449,3 +449,8 @@ body {
     background: #ff69b4;
 }
 
+section, .section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
